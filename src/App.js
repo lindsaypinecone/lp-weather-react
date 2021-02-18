@@ -1,8 +1,8 @@
 import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./App.css";
 import axios from "axios";
-
-import "bootstrap/dist/css/bootstrap.min.css";
 
 import Header from "./Header";
 import DayDate from "./DayDate";
