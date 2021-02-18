@@ -1,13 +1,28 @@
+import React from "react";
 import "./App.css";
 import axios from "axios";
-import Search from "./Search";
+
+import Header from "./Header";
+import DayDate from "./DayDate";
+import Icon from "./Icon";
+import Temperature from "./Temperature";
+import Conditions from "./Conditions";
+import Details from "./Details";
+import Footer from "./Footer";
 
 export default function App() {
   return (
-    <div className="App">
-      <h1 className="App-header">Hello World!!!</h1>
-      <Search />
-      <h3>Hello again!</h3>
+    <div className="wrapper">
+      <div className="weather-app">
+        <Header />
+        <DayDate />
+        <Icon />
+        <Temperature />
+        <Conditions />
+        <hr />
+        <Details />
+      </div>
+      <Footer />
     </div>
   );
 }

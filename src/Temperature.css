@@ -1,0 +1,10 @@
+h2 {
+  font-size: 40px;
+  padding-top: 16px;
+}
+
+.units {
+  position: relative;
+  font-size: 18px;
+  top: -16px;
+}

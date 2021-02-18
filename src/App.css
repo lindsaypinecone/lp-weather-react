@@ -9,3 +9,47 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+body {
+  padding: 34px;
+}
+
+.weather-app {
+  border: 4px outset #4db3a9;
+  border-radius: 7px;
+  padding: 34px;
+  max-width: 700px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+    to bottom,
+    #97babb,
+    #a8c5c8,
+    #bad1d4,
+    #cbdce0,
+    #dde8eb
+  );
+  text-align: center;
+}
+h1,
+h2,
+h3,
+.row,
+button,
+.placeholder {
+  color: #2d857c;
+  font-family: "Quicksand", sans-serif;
+}
+input,
+button {
+  border: solid;
+  border-color: #4db3a9;
+  border-radius: 5px;
+  color: #4db3a9;
+}
+hr {
+  background-color: #4db3a9;
+  border: solid;
+  border-color: #4db3a9;
+  border-radius: 7px;
+  height: 2px;
+  margin-top: 20px;
+}
