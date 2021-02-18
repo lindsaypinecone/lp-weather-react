@@ -36,9 +36,5 @@ button {
 }
 hr {
   background-color: #4db3a9;
-  border: solid;
-  border-color: #4db3a9;
   border-radius: 7px;
-  height: 4px;
-  margin-top: 20px;
 }
