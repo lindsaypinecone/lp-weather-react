@@ -14,8 +14,8 @@ import Footer from "./Footer";
 
 export default function App() {
   return (
-    <div className="wrapper">
-      <div className="weather-app">
+    <div className="weather-app">
+      <div className="container">
         <Header />
         <DayDate />
         <Icon />
