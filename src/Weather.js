@@ -34,7 +34,7 @@ export default function Weather() {
         </form>
         <h1>{weatherInfo.date}</h1>
         <div className="icon">
-          <img src="http://openweathermap.org/img/wn/02n@2x.png" alt="icon" />
+          <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="icon" />
         </div>
 
         <h2>
