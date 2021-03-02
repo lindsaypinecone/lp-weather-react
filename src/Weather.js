@@ -9,7 +9,6 @@ export default function Weather() {
     setWeatherInfo({
       ready: true,
       date: "Sunday 11:23",
-      icon: response.data.weather[0].icon,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       city: response.data.name,
