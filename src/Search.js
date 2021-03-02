@@ -3,7 +3,7 @@ import axios from "axios";
 import "./Search.css";
 
 export default function Search() {
-  let [city, setCity] = useState(null);
+  let [city, setCity] = useState("Taipei");
   let [weather, setWeather] = useState(null);
 
   function showWeather(response) {
@@ -41,6 +41,7 @@ export default function Search() {
         <input type="submit" value="Search" />
       </form>
       <h2>{weather}</h2>
+      <h3>HELLO!</h3>
     </div>
   );
 }

@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import axios from "axios";
 
+import Weather from "./Weather";
 import Header from "./Header";
 import DayDate from "./DayDate";
 import Icon from "./Icon";
@@ -16,13 +17,7 @@ export default function App() {
   return (
     <div className="container">
       <div className="weather-app">
-        <Header />
-        <DayDate />
-        <Icon />
-        <Temperature />
-        <Conditions />
-        <hr />
-        <Details />
+        <Weather />
       </div>
       <Footer />
     </div>
