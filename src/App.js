@@ -6,7 +6,6 @@ import axios from "axios";
 
 import Weather from "./Weather";
 import Header from "./Header";
-import DayDate from "./DayDate";
 import Icon from "./Icon";
 import Temperature from "./Temperature";
 import Conditions from "./Conditions";
