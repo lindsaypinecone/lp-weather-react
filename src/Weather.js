@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import WeatherDisplay from "./WeatherDisplay";
 import axios from "axios";
 import "./Weather.css";
-import CleanDate from "./CleanDate";
 
 export default function Weather(props) {
   const [weatherInfo, setWeatherInfo] = useState({ ready: false });
@@ -50,29 +50,7 @@ export default function Weather(props) {
             </div>
           </div>
         </form>
-        <h1>
-          <CleanDate date={weatherInfo.date} />
-        </h1>
-        <div className="icon">
-          <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="icon" />
-        </div>
-
-        <h2>
-          {Math.round(weatherInfo.temperature)}
-          <small className="units"> °C | °F</small>
-        </h2>
-        <h3>
-          <span className="text-capitalize">{weatherInfo.description}</span> in{" "}
-          {weatherInfo.city}
-        </h3>
-        <hr />
-        <div className="details">
-          <div className="row">
-            <div className="col">Pressure: {weatherInfo.pressure} hPa</div>
-            <div className="col">Humidity: {weatherInfo.humidity}%</div>
-            <div className="col">Wind: {Math.round(weatherInfo.wind)} km/h</div>
-          </div>
-        </div>
+        <WeatherDisplay data={weatherInfo} />
       </div>
     );
   } else {
