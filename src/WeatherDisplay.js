@@ -8,7 +8,7 @@ export default function WeatherDisplay(props) {
         <CleanDate date={props.data.date} />
       </h1>
       <div className="icon">
-        <img src="https://openweathermap.org/img/wn/02n@2x.png" alt="icon" />
+        <img src={props.data.iconUrl} alt="icon" />
       </div>
 
       <h2>

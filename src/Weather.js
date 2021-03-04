@@ -12,6 +12,7 @@ export default function Weather(props) {
     setWeatherInfo({
       ready: true,
       date: new Date(response.data.dt * 1000),
+      iconUrl: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
       city: response.data.name,

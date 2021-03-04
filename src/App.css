@@ -26,6 +26,9 @@ h3,
   color: #2d857c;
   font-family: "Quicksand", sans-serif;
 }
+h1 {
+  padding: 18px;
+}
 input,
 button {
   border: solid;
