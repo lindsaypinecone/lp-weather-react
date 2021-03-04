@@ -1,5 +1,8 @@
 import React from "react";
 import CleanDate from "./CleanDate";
+import Temperature from "./Temperature";
+
+import "./WeatherDisplay.css";
 
 export default function WeatherDisplay(props) {
   return (
@@ -8,13 +11,11 @@ export default function WeatherDisplay(props) {
         <CleanDate date={props.data.date} />
       </h1>
       <div className="icon">
-        <img src={props.data.iconUrl} alt="icon" />
+        <img src={props.data.iconUrl} alt={props.data.description} />
       </div>
 
-      <h2>
-        {Math.round(props.data.temperature)}
-        <small className="units"> °C | °F</small>
-      </h2>
+      <Temperature celsius={props.data.temperature} />
+
       <h3>
         <span className="text-capitalize">{props.data.description}</span> in{" "}
         {props.data.city}
