@@ -1,11 +1,11 @@
 body {
-  padding: 34px;
+  padding: 24px;
   text-align: center;
 }
 .weather-app {
   border: 4px outset #4db3a9;
   border-radius: 7px;
-  padding: 34px;
+  padding: 24px;
   max-width: 700px;
   margin: 0 auto;
   background-image: linear-gradient(
