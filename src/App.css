@@ -1,7 +1,7 @@
 body {
   padding: 34px;
+  text-align: center;
 }
-
 .weather-app {
   border: 4px outset #4db3a9;
   border-radius: 7px;
@@ -16,31 +16,4 @@ body {
     #cbdce0,
     #dde8eb
   );
-  text-align: center;
-}
-h1,
-h2,
-h3,
-.row,
-.placeholder {
-  color: #2d857c;
-  font-family: "Quicksand", sans-serif;
-}
-h1 {
-  padding: 18px;
-}
-input,
-button {
-  border: solid;
-  border-color: #4db3a9;
-  border-radius: 5px;
-  color: #4db3a9;
-}
-hr {
-  background-color: #4db3a9;
-  border: solid;
-  border-color: #4db3a9;
-  border-radius: 7px;
-  height: 2px;
-  margin-top: 20px;
 }

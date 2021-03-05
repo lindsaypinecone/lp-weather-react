@@ -11,7 +11,7 @@ export default function ForecastPreview(props) {
   function forecastIcon() {
     let forecastIconUrl = `http://openweathermap.org/img/wn/${props.data.weather[0].icon}@2x.png`;
     return (
-      <div className="forecastIcons">
+      <div className="smaller">
         <img src={forecastIconUrl} alt={props.data.weather[0].main} />
       </div>
     );

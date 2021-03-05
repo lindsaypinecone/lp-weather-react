@@ -5,11 +5,6 @@ import "./App.css";
 import axios from "axios";
 
 import Weather from "./Weather";
-import Header from "./Header";
-import Icon from "./Icon";
-import Temperature from "./Temperature";
-import Conditions from "./Conditions";
-import Details from "./Details";
 import Footer from "./Footer";
 
 export default function App() {

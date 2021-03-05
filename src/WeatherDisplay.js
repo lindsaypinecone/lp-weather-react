@@ -28,6 +28,7 @@ export default function WeatherDisplay(props) {
           <div className="col">Wind: {Math.round(props.data.wind)} km/h</div>
         </div>
       </div>
+      <hr />
     </div>
   );
 }
